@@ -72,14 +72,14 @@ export const Hero = () => {
                 </motion.div>
             </div>
 
-            {/* Scroll indicator - Moved to bottom right */}
+            {/* Scroll indicator - Back to center */}
             <motion.div
-                className="absolute bottom-12 right-12 hidden md:flex flex-col items-center gap-4"
+                className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.5, duration: 1 }}
             >
-                <span className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground vertical-text rotate-180" style={{ writingMode: 'vertical-lr' }}>Keşfet</span>
+                <span className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">Keşfet</span>
                 <div className="w-[1px] h-12 bg-gradient-to-b from-muted-foreground to-transparent"></div>
             </motion.div>
         </section>
