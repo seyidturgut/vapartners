@@ -1,0 +1,49 @@
+.parallax {
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+.scroller {
+    display: flex;
+    white-space: nowrap;
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 2.25rem;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+}
+
+/* Light mode support */
+:root {
+    --velocity-text-color: rgba(0, 0, 0, 0.2);
+    /* Increased visibility from 0.05 */
+}
+
+.dark {
+    --velocity-text-color: rgba(255, 255, 255, 0.15);
+    /* Distinct but subtle in dark mode */
+}
+
+.scroller span {
+    flex-shrink: 0;
+    margin-right: 4rem;
+    /* More spacing for better readability */
+    color: var(--velocity-text-color);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
+}
+
+.scroller span:hover {
+    color: #e0c51a;
+    /* Explicit Gold instead of just var(--gold) to ensure consistency */
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .scroller {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+}

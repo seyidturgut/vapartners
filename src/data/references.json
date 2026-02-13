@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "title": "ZAFER TEKNOPARK",
+    "image": "/upload/2/zafer.png"
+  },
+  {
+    "id": 1,
+    "title": "BALIKESİR TEKNOKENT",
+    "image": "/upload/2/balikesir.png"
+  },
+  {
+    "id": 2,
+    "title": "ÇANAKKALE TEKNOPARK",
+    "image": "/upload/2/canakkale.png"
+  },
+  {
+    "id": 3,
+    "title": "MANİSA TEKNOKENT",
+    "image": "/upload/2/manisa.jpg"
+  },
+  {
+    "id": 4,
+    "title": "PAMUKKALE TEKNOKENT",
+    "image": "/upload/2/pamukkale.png"
+  },
+  {
+    "id": 5,
+    "title": "EGE TEKNOPARK",
+    "image": "/upload/2/ege.png"
+  },
+  {
+    "id": 6,
+    "title": "İZMİR BİLİMPARK",
+    "image": "/upload/2/izmir-bilisim-park.png"
+  },
+  {
+    "id": 7,
+    "title": "DEPARK",
+    "image": "/upload/2/depark.png"
+  },
+  {
+    "id": 8,
+    "title": "ADRESGEZGİNİ",
+    "image": "/upload/2/ag-logo-beyazzemin-yatay.png"
+  },
+  {
+    "id": 9,
+    "title": "ADÜ TEKNOKENT",
+    "image": "/upload/2/adu.png"
+  },
+  {
+    "id": 10,
+    "title": "BİLİŞİM VADİSİ",
+    "image": "/upload/2/bilisim-vadisi.png"
+  },
+  {
+    "id": 11,
+    "title": "SAKARYA TEKNOKENT",
+    "image": "/upload/2/sakarya.png"
+  },
+  {
+    "id": 12,
+    "title": "TEKMER",
+    "image": "/upload/2/tekmer.png"
+  },
+  {
+    "id": 13,
+    "title": "RAPSODO",
+    "image": "/upload/2/raspsodo.png"
+  },
+  {
+    "id": 14,
+    "title": "AYVOS BİLGİ TEKNOLOJİLERİ",
+    "image": "/upload/2/ayvos.png"
+  }
+]
