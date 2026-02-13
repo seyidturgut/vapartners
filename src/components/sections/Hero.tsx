@@ -44,27 +44,27 @@ export const Hero = () => {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, ease: "easeOut" }}
-                    className="max-w-6xl"
+                    className="max-w-5xl"
                 >
-                    <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-foreground mb-10 leading-[0.9]">
+                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-foreground mb-8 leading-[0.95]">
                         Finansal Mimari.<br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground via-muted-foreground to-muted-foreground/50">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground via-muted-foreground/80 to-muted-foreground/40">
                             Stratejik Güç.
                         </span>
                     </h1>
 
-                    <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto mb-16 leading-relaxed font-light tracking-wide">
+                    <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed font-light tracking-wide">
                         VA Partners, vergi planlaması, devlet destekleri ve finansal yönetimle işletmenizin potansiyelini küresel güce dönüştürür.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+                    <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                         <Magnetic strength={0.2}>
-                            <ShinyButton className="px-12 py-7 text-lg min-w-[280px] shadow-[0_20px_50px_rgba(198,167,94,0.3)]">
+                            <ShinyButton className="px-10 py-5 text-base min-w-[260px] shadow-[0_15px_40px_rgba(198,167,94,0.2)]">
                                 Hizmetlerimizi Keşfedin
                             </ShinyButton>
                         </Magnetic>
                         <Magnetic strength={0.1}>
-                            <button className="px-12 py-7 text-foreground/80 border border-white/10 bg-white/5 backdrop-blur-md rounded-xl font-bold text-lg tracking-widest uppercase hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 min-w-[280px] shadow-xl">
+                            <button className="px-10 py-5 text-foreground/80 border border-white/10 bg-white/5 backdrop-blur-md rounded-xl font-bold text-base tracking-widest uppercase hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 min-w-[260px] shadow-xl">
                                 İletişime Geçin
                             </button>
                         </Magnetic>
@@ -72,15 +72,15 @@ export const Hero = () => {
                 </motion.div>
             </div>
 
-            {/* Scroll indicator */}
+            {/* Scroll indicator - Moved to bottom right */}
             <motion.div
-                className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4"
+                className="absolute bottom-12 right-12 hidden md:flex flex-col items-center gap-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.5, duration: 1 }}
             >
-                <span className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground">Keşfet</span>
-                <div className="w-[1px] h-16 bg-gradient-to-b from-muted-foreground to-transparent"></div>
+                <span className="text-[10px] uppercase tracking-[0.4em] text-muted-foreground vertical-text rotate-180" style={{ writingMode: 'vertical-lr' }}>Keşfet</span>
+                <div className="w-[1px] h-12 bg-gradient-to-b from-muted-foreground to-transparent"></div>
             </motion.div>
         </section>
     );
