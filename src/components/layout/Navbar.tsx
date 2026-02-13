@@ -104,8 +104,8 @@ export const Navbar = () => {
                     <Link
                         href="/"
                         className={cn(
-                            "text-[11px] font-black tracking-[0.25em] uppercase transition-all hover:text-gold relative group",
-                            isScrolled ? "text-foreground/80" : "text-foreground"
+                            "text-[12px] font-bold tracking-[0.2em] uppercase transition-all hover:text-gold relative group",
+                            isScrolled ? "text-foreground/90" : "text-foreground"
                         )}
                     >
                         Anasayfa
@@ -115,8 +115,8 @@ export const Navbar = () => {
                     <Link
                         href="/hakkimizda"
                         className={cn(
-                            "text-[11px] font-black tracking-[0.25em] uppercase transition-all hover:text-gold relative group",
-                            isScrolled ? "text-foreground/80" : "text-foreground"
+                            "text-[12px] font-bold tracking-[0.2em] uppercase transition-all hover:text-gold relative group",
+                            isScrolled ? "text-foreground/90" : "text-foreground"
                         )}
                     >
                         Hakkımızda
@@ -132,8 +132,8 @@ export const Navbar = () => {
                         <Link
                             href="/hizmetlerimiz"
                             className={cn(
-                                "text-[11px] font-black tracking-[0.25em] uppercase transition-all hover:text-gold flex items-center gap-2 py-4 relative group",
-                                isScrolled ? "text-foreground/80" : "text-foreground",
+                                "text-[12px] font-bold tracking-[0.2em] uppercase transition-all hover:text-gold flex items-center gap-2 py-4 relative group",
+                                isScrolled ? "text-foreground/90" : "text-foreground",
                                 isMegaMenuOpen && "text-gold"
                             )}
                         >
@@ -153,8 +153,8 @@ export const Navbar = () => {
                     <Link
                         href="/blog"
                         className={cn(
-                            "text-[11px] font-black tracking-[0.25em] uppercase transition-all hover:text-gold relative group",
-                            isScrolled ? "text-foreground/80" : "text-foreground"
+                            "text-[12px] font-bold tracking-[0.2em] uppercase transition-all hover:text-gold relative group",
+                            isScrolled ? "text-foreground/90" : "text-foreground"
                         )}
                     >
                         Blog
