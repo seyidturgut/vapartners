@@ -24,11 +24,22 @@ export const Footer = () => {
                             2011'den beri sürdürülebilir finansal büyüme mühendisliği.
                         </p>
                         <div className="flex gap-4">
-                            {[Linkedin, Twitter, Instagram].map((Icon, idx) => (
-                                <div key={idx} className="w-10 h-10 border border-border flex items-center justify-center hover:border-gold hover:text-gold transition-all cursor-pointer">
-                                    <Icon size={18} />
-                                </div>
-                            ))}
+                            <a
+                                href="https://www.linkedin.com/company/va-partners-tr/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 border border-border flex items-center justify-center hover:border-gold hover:text-gold transition-all cursor-pointer"
+                            >
+                                <Linkedin size={18} />
+                            </a>
+                            <a
+                                href="https://www.instagram.com/vapartnerstr/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 border border-border flex items-center justify-center hover:border-gold hover:text-gold transition-all cursor-pointer"
+                            >
+                                <Instagram size={18} />
+                            </a>
                         </div>
                     </div>
 

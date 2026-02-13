@@ -331,7 +331,7 @@ export const Navbar = () => {
                                         </div>
                                         <div className="flex flex-col">
                                             <span className="text-[10px] font-black text-white/30 uppercase tracking-widest">Telefon</span>
-                                            <a href="tel:+902123456789" className="text-sm font-bold text-white">+90 (212) 345 67 89</a>
+                                            <a href="tel:+902325044882" className="text-sm font-bold text-white">+90 (232) 504 48 82</a>
                                         </div>
                                     </div>
                                     <div className="flex gap-4">
