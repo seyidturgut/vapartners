@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import * as motion from "framer-motion/client";
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Instagram, Linkedin } from 'lucide-react';
 import { SmartContactForm } from '@/components/features/SmartContactForm';
 
 export const metadata: Metadata = {
@@ -141,6 +141,34 @@ export default function ContactPage() {
                         ></iframe>
                     </motion.div>
                 </div>
+
+                {/* Social Media Links */}
+                <motion.div
+                    className="mt-24 pt-12 border-t border-border flex flex-col items-center"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                >
+                    <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-muted-foreground mb-8 text-center">Sosyal Medyada VA Partners</h3>
+                    <div className="flex gap-6">
+                        <a
+                            href="https://www.linkedin.com/company/va-partners-tr/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-16 h-16 bg-card border border-border rounded-2xl flex items-center justify-center text-muted-foreground hover:text-gold hover:border-gold hover:shadow-xl transition-all duration-500 group"
+                        >
+                            <Linkedin size={24} className="group-hover:scale-110 transition-transform" />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/vapartnerstr/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-16 h-16 bg-card border border-border rounded-2xl flex items-center justify-center text-muted-foreground hover:text-gold hover:border-gold hover:shadow-xl transition-all duration-500 group"
+                        >
+                            <Instagram size={24} className="group-hover:scale-110 transition-transform" />
+                        </a>
+                    </div>
+                </motion.div>
             </section>
         </main>
     );

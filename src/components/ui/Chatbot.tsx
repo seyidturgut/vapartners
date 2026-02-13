@@ -66,7 +66,7 @@ export function Chatbot() {
         }
 
         if (query.includes('iletişim') || query.includes('telefon') || query.includes('numara') || query.includes('adres')) {
-            return { text: 'Bize +90 (212) 345 67 89 numaralı telefondan veya info@vapartners.com.tr adresinden ulaşabilirsiniz. Ya da bilgilerinizi bırakın, biz sizi arayalım:', triggerLead: true };
+            return { text: 'Bize +90 (232) 504 48 82 numaralı telefondan veya info@vapartners.com.tr adresinden ulaşabilirsiniz. Ya da bilgilerinizi bırakın, biz sizi arayalım:', triggerLead: true };
         }
 
         // Search in services
@@ -147,8 +147,8 @@ export function Chatbot() {
                             {messages.map((msg) => (
                                 <div key={msg.id} className={`flex ${msg.type === 'user' ? 'justify-end' : 'justify-start'}`}>
                                     <div className={`max-w-[85%] rounded-2xl p-4 text-sm ${msg.type === 'user'
-                                            ? 'bg-gold text-black font-bold'
-                                            : 'bg-white/5 text-white/90 border border-white/10'
+                                        ? 'bg-gold text-black font-bold'
+                                        : 'bg-white/5 text-white/90 border border-white/10'
                                         }`}>
                                         {msg.text}
 
