@@ -9,8 +9,8 @@
   --color-navy-light: #0f172a;
   --color-gold: #c6a75e;
 
-  --font-sans: "Inter", var(--font-geist-sans), ui-sans-serif, system-ui;
-  --font-serif: "Playfair Display", serif;
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui;
+  --font-serif: var(--font-outfit), ui-sans-serif, system-ui;
 
   --animate-fade-up: fade-up 0.5s ease-out forwards;
   --animate-gradient-x: gradient-x 15s ease infinite;
